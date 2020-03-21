@@ -1,4 +1,4 @@
-# High Resolution Dermoscopic Images Classification Through Calibration andData Augmentation
+# A Deep Analysis on High Resolution Dermoscopic Images Classification
 
 To use this code first unzip dataset_files.zip, place its content in a directory,
 and add a subdirectory named images containing every sample from both the training 
