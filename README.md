@@ -44,13 +44,12 @@ Every network is trained with:
 Networks are trained for a maximum of 120 epochs, checkpoint that obtain a new best weighted accuracy on the 
 **validation set** are saved.
 
-The ensemble result is obtained by calibrating each model with Temp Scal strategy and employing the Data 
-Augmentation ensemble technique.
+The ensemble result is obtained by employing the Data Augmentation ensemble technique.
 
 To calculate the results of the ensemble in Table 5 of the paper:
 
 ``` bash
-models_ensemble.py --avg ensemble.txt --calibrated --da_n_iter 30
+models_ensemble.py --avg ensemble.txt --da_n_iter 30
 ```
 
 where ensemble.txt is a simple txt file containing only the following lines.
